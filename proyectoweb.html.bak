@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>Envío de formulario</title>
+</head>
+<body>
+<h1>Envío de formulario</h1>
+<p>Este es el <strong>segundo proyecto que hago desde que comencé a estudiar hacer una semana</strong></p>
+<h2>Todo comenzó...</h2>
+<p>Siempre me había causado curiosidad cómo sería el mundo de la programación. Si debería tener conocimientos previos sobre informática,
+si sería muy alejado de mis posibilidades cognitivas. Pero sin dudas que lo primero era animarse a entrar y descubrir un nuevo mundo.
+Hoy, que me animé y aquí estoy, aprendiendo e intentando aplicar los conocimientos adquiridos, me siento orgulloso por el simple hecho 
+de haberlo intentado.
+Este texto no significa más que relleno, pero <strong>NO deja de ser parte de mis sentimientos</strong> a una semana solamente de haber 
+iniciado este camino</p>
+
+<p>A continuación te invito a dejar tus datos en el siguiente formulario junto a una foto que tú selecciones
+para poder registrarte y así poder enviarte información.
+Deberás dejar tus datos y nos comunicaremos de forma diaria via whatsapp</p>
+
+<fieldset><input type="text"/>Nombre
+<br/>
+<input type="text"/>Apellidos
+<br/>
+<input type="#"/>Teléfono
+<br/>
+<input type="file"/><br/>
+<br/>
+<input type="submit" text/plain/>Enviar
+</fieldset>
+
+
+
+
+</body>
+</html>
