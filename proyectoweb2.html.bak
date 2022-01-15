@@ -1,0 +1,66 @@
+<html>
+<head>
+<title>Envío de formulario</title>
+</head>
+<body>
+<h1>Envío de formulario</h1>
+<p>Este es el <strong>segundo proyecto que hago desde que comencé a estudiar hace una semana</strong></p>
+<h2>Todo comenzó...</h2>
+<p>Siempre me había causado curiosidad cómo sería el mundo de la programación. Si debería tener conocimientos previos sobre informática,
+si sería muy alejado de mis posibilidades cognitivas.</p> 
+<p>Pero, sin dudas, que lo primero era animarse a entrar y descubrir un nuevo mundo.
+Hoy, que me animé y aquí estoy, aprendiendo e intentando aplicar los conocimientos adquiridos, me siento orgulloso por el simple hecho 
+de haberlo intentado.
+Este texto no significa más que relleno, pero <strong>NO deja de ser parte de mis sentimientos</strong> a una semana solamente de haber 
+iniciado este camino.</p>
+
+<p>En los diferentes formularios utilicé las etiquetas legend para poder incluir la leyenda "datos personales"
+en el fieldset. Incluí la etiqueta file en el input para que el usuario pudiera seleccionar una imagen en este caso o un archivo
+en situaciones generales.</p>
+
+<p>Por ejemplo, en el primer formulario ingresé la etiqueta submit para agregar el botón de enviar que permita poder enviar el mismo.
+Sin embargo en el siguiente, además de haber incluido la eqtiqueta maxlength para limitar el número de caracteres a ingresar por parte
+del usuario, también agregué un botón de "enviar", pero con la etiqueta "button".</p>
+
+<p>En tanto, también utilicé el atributo "textarea", para delimitar un área donde el usuario pudiera dejar su comentario.
+EL área del atributo, fue delineado de forma razonable con los valores cols y rows.</p>
+
+<p>A continuación te invito a dejar tus datos en el siguiente formulario junto a una foto que tú selecciones
+para poder registrarte y así poder enviarte información de forma diaria.
+Deberás dejar tus datos y nos comunicaremos via whatsapp para que no te pierdas nada de lo que te interesa saber.</p>
+<p>Si quieres también puedes dejarnos un comentario, pero ten en cuenta que no podrás excederte de los 30 caracteres</p>
+
+<form>
+<fieldset><legend>Datos personales</legend><br/>
+<br/>
+<label for="Nombre">Nombre</label>
+<input form type="text"/><br/>
+<br/>
+<label for="Apellidos">Apellidos</label>
+<input type="text"/><br/>
+<br/>
+<input type="#" value="Teléfono"/><br/>
+<br/>
+<input type="text" value="Email"/><br/>
+<br/> 
+<input type="file"/><br/>
+<br/> 
+<input type="submit"/><br/>
+<br/>
+</fieldset>
+<br/>
+<fieldset><input type="text" maxlength=30 
+value="Deja tu comentario"/>
+<input type="button" value="Enviar"><br/>
+<br/> 
+</fieldset><br/>
+<textarea cols="20" rows="6">Escribe aquí...</textarea><br/>
+<br/>
+<input type="button" value="Enviar"/></form><br/>
+
+ 
+
+
+
+</body>
+</html>
